@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+.review-google {
+  height: 400px;
+}
+
+.rev-container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.rev-container h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-wrapper {
+  background-color: white;
+}
+
+.card-review {
+  transition: 0.8s;
+  float: left;
+  width: 25%;
+  margin-bottom: 10px;
+}
+
+.card-konten {
+  transition: 0.6s;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  animation-name: open-card;
+  animation-duration: 4s;
+}
+
+@keyframes open-card {
+  from {
+    background-color: white;
+    color: white;
+  }
+
+  to {
+    background-color: white;
+    color: black;
+  }
+}
+
+.card-konten:hover {
+  box-shadow: 5px 5px 5px rgba(33, 33, 33, 0.2);
+}
+
+.card-review h4 {
+  font-weight: normal;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+.person-review {
+  padding: 0px 20px;
+}
+
+.pic-review img {
+  margin: 0 auto;
+  height: 50px;
+  width: 100%;
+}
+
+.name-review {
+  line-height: 0px;
+  text-align: center;
+}
+
+.name-review h4 {
+  font-weight: bold;
+}
+
+.tombol {
+  text-align: center;
+}
+
+.btn {
+  transition: 0.5s;
+  padding: 12px 24px;
+  color: black;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  background-color: cornflowerblue;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+/* responsive tablet dan smartphone */
+
+@media all and (max-width: 1000px) {
+  .card-review {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .card-review {
+    width: 100%;
+  }
+}
