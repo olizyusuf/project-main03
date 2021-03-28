@@ -232,7 +232,6 @@ button:hover {
 .card-review {
   transition: 0.8s;
   width: 20%;
-
   flex: auto;
   margin: 0 auto;
 }
@@ -302,4 +301,43 @@ button:hover {
 
 .btn:hover {
   background-color: grey;
+}
+
+/* footer */
+
+.footer {
+  height: 200px;
+}
+
+.f-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+
+.f-wrap {
+  padding: 10px;
+  flex: auto;
+  width: 25%;
+}
+
+.f-wrap h2 {
+  padding: 5px 0;
+  font-size: 20px;
+}
+
+.f-wrap h5 {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.f-wrap p {
+  font-size: 10px;
+}
+
+.f-wrap li {
+  margin-top: 5px;
+  list-style-type: none;
 }

@@ -60,12 +60,19 @@
   }
 
   /* section-3 */
+  .review-google {
+    height: auto;
+  }
+
   .card-review {
     width: 100%;
   }
-}
 
-/*section 2*/
+  /* footer */
+  .f-wrap {
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 1000px) {
   /* section-2 */
@@ -113,7 +120,16 @@
   }
 
   /* section-3 */
+  .review-google {
+    height: auto;
+  }
+
   .card-review {
     width: 50%;
+  }
+
+  /* footer */
+  .f-wrap {
+    width: 100%;
   }
 }
