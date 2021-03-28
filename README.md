@@ -1,5 +1,5 @@
-### Project Main03 team 008 web 1c
+# krisna-saput.github.io
 
-saya membuat bagian main03 dengan html dan css tanpa framework.
+# arifwidayat.gihub.io
 
-kriteria terpenuhi, animation css dan responsive.
+# olizyusuf.github.io
