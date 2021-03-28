@@ -1,5 +1,10 @@
-# krisna-saput.github.io
+# Project web DTS Pro platform Progate Kelas 008 Web-1c.
 
-# arifwidayat.gihub.io
+### List Anggota 008 | Tema Web Profile.
 
-# olizyusuf.github.io
+Lead : I Wayan Krisna Saputra
+
+Arif Nurwidayat
+Pahala Sitohang
+Nurkholis Yusuf
+Wiwit Priya A
